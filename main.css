@@ -1,0 +1,472 @@
+/*** TUTOR CODE ***/
+#loader {
+  width: 100%;
+  height: 100vh;
+  background: #fff200;
+  position: fixed;
+  left: 0;
+  z-index: 101;
+  transition: left 2s;
+}
+
+#loader.fully-loaded {
+  left: 100%;
+  animation: slide-left 2s; */
+}
+
+/* @keyframes slide-left {
+  0% {
+    left: 0;
+  }
+
+  99% {
+    left: 100%;
+  }
+
+  100% {
+    display: none;
+  }
+} */
+
+
+/*** END TUTOR CODE ***/
+
+.city {
+  height: 100%;
+  width:100%;
+  position: absolute;
+  left: 0px;
+
+
+
+}
+.citysq {
+  height: 100%;
+  width:100%;
+  position: absolute;
+  left: 7%;
+  top: 0%;
+
+
+
+}
+
+.citylight {
+  height: 100%;
+  width:100%;
+  position: absolute;
+  left: 7%;
+  animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: 1;
+animation-duration: 15s;
+}
+
+.room {
+  height: 100%;
+  width:100%;
+  position: absolute;
+  left: 2%;
+
+}
+html, body {margin: 0; height: 100%; overflow: hidden}
+body {background-color: #e7e7e8;}
+
+.cloud {
+  position: absolute;
+  top: 60px;
+    opacity: 90%;
+transform: scale(300%);
+
+
+}
+marquee {
+  width: 100%;
+}
+
+
+.cloud1 {
+  position: absolute;
+  top: 100px;
+  opacity: 80%;
+
+
+
+}
+
+.buttoncontainer
+{
+
+}
+
+
+.car {
+  width: 48px;
+  height: 49px;
+  position: absolute;
+  top: 39%;
+  left: 47.5%;
+  animation:
+   nudge 5s linear infinite alternate;
+animation-duration: 9s;
+animation-iteration-count: 1000;
+animation-direction: alternate-reverse
+}
+
+.mycar {
+  width: 35px;
+  height: 36px;
+  position: absolute;
+  top: 55%;
+  left: 80%;
+  animation:
+   officenudge 5s linear infinite alternate;
+animation-duration: 9s;
+animation-iteration-count: 1000;
+animation-direction: alternate-reverse
+}
+
+.car2 {
+  width: 48px;
+  height: 49px;
+  position: absolute;
+  top: 8%;
+  left: 92.8%;
+  animation:
+   nudge 3s linear infinite alternate;
+animation-duration: 6s;
+animation-iteration-count: 1000;
+animation-direction: alternate-reverse
+}
+
+.car3 {
+  width: 48px;
+  height: 49px;
+  position: absolute;
+  top: 92%;
+  left: 68.8%;
+  animation:
+   nudge2 8s linear infinite alternate;
+animation-duration: 8s;
+animation-iteration-count: 1000;
+animation-direction: alternate-reverse
+}
+
+.car4 {
+  width: 48px;
+  height: 49px;
+  position: absolute;
+  top: 72%;
+  left: 18.8%;
+  animation:
+   nudge2 8s linear infinite alternate;
+animation-duration: 8s;
+animation-iteration-count: 1000;
+animation-direction: alternate-reverse
+}
+
+.dayloop {
+  height: 100%;
+  width:100%;
+  position: absolute;
+  left: 2%;
+  animation-name: dayloop;
+animation-timing-function: ease-in-out;
+animation-iteration-count: 1;
+animation-duration: 10s;
+
+
+}
+
+
+.button {
+  width: 100%;
+  top: 30%;
+  background-color: #ececed;
+  border: none;
+color: #3a3a3a;
+padding: 4px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 35px;
+  margin: 40px 10px;
+  cursor: pointer;
+  box-shadow: 3px 8px 10px grey;
+  transition-duration: 0.4s;
+  z-index: 100;
+  line-height: 0px;
+  font-family: linotype-vectora, sans-serif;
+
+  font-weight: 300;
+
+  font-style: normal;
+  text-align: left;
+
+
+}
+
+.button2 {
+  position: absolute;
+  top: 300%;
+  width: 100%;
+  top: 30%;
+  background-color: #ececed;
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+
+  margin: 40px 3px;
+  cursor: pointer;
+  box-shadow: 3px 8px 10px grey;
+  transition-duration: 0.4s;
+  font-family: linotype-vectora, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+
+  text-align: left;
+
+
+}
+.startbutton {
+  width: 300px;
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  background-color: #ececed;
+  border: none;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+
+  margin: 40px 3px;
+  cursor: pointer;
+  box-shadow: 3px 8px 10px grey;
+  transition-duration: 0.4s;
+  z-index: 100;
+  font-family: linotype-vectora, sans-serif;
+
+  font-weight: 300;
+
+  font-style: normal;
+  text-align: center;
+
+
+}
+
+
+.button3 {
+  border-radius: 8px;
+}
+
+.button4 {
+  border-radius: 8px;
+}
+
+
+.button:hover {
+  background-color: #ffff00; /* Green */
+  color: black;
+}
+.startbutton:hover {
+  background-color: #ffff00; /* Green */
+  color: black;
+}
+
+.cloud2 {
+  position: absolute;
+  top: 30px;
+  animation-delay: 0s;
+
+
+}
+
+.cloud3 {
+  position: absolute;
+  top: 30px;
+  animation-delay: 0s;
+
+
+}
+.cloud5 {
+  position: absolute;
+  top: -80px;
+  animation-delay: 350s;
+
+
+}
+
+.cloud6 {
+  position: absolute;
+  top: 300px;
+  animation-delay: 350s;
+
+
+}
+
+.cloud7 {
+  position: absolute;
+  top: -100px;
+  animation-delay: 350s;
+
+
+}
+
+.cloud4 {
+  position: absolute;
+  top: 240px;
+  animation-delay: 0s;
+
+
+}
+p {
+line-height: 12px;
+}
+
+.text {
+  font-size: 35px;
+color: #3a3a3a;
+position: absolute;
+top: 5%;
+left: 8%;
+
+font-family: linotype-vectora, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+line-height: 2px;
+
+
+}
+
+.title {
+
+    font-size: 54px;
+color: #3a3a3a;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  letter-spacing: 0.5px;
+  font-family: linotype-vectora, sans-serif;
+
+  font-weight: 300;
+
+  font-style: normal;
+  font-weight: 200;
+  line-height: 20px;
+
+}
+
+
+
+.op1 {
+  font-size: 30px;
+color: #3a3a3a;
+position: absolute;
+top: 20%;
+left: 4%;
+font-family: linotype-vectora, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+
+}
+
+.op2 {
+  font-size: 30px;
+color: #3a3a3a;
+position: absolute;
+top: 25%;
+left: 4%;
+font-family: linotype-vectora, sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+
+
+}
+
+
+
+.op1 {
+
+}
+
+.op2 {
+
+}
+
+@keyframes nudge {
+
+  30% {
+    transform: translate(-39px,30px);
+  }
+
+
+}
+
+@keyframes nudge2 {
+
+  30% {
+    transform: translate(39px,30px);
+  }
+
+
+}
+
+@keyframes officenudge {
+
+  30% {
+    transform: translate(-39px,30px);
+  }
+
+  50% {
+    transform: translate(39px,-120px);
+  }
+
+}
+
+@keyframes cf3FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+@keyframes dayloop {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:0.5;
+}
+55% {
+opacity:0.3;
+}
+100% {
+opacity:0;
+}
+}
